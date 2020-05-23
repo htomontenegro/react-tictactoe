@@ -1,0 +1,51 @@
+
+.cuadro{
+  color: #424242;
+  border: 4px solid #00897b;
+  float: left;
+  font-size: 40px;
+  font-weight: bold;
+  margin-right: -4px;
+  margin-top: -4px;
+  padding: 0;
+  text-align: center;
+  height: 80px;
+  width: 80px;
+}
+.cuadro:focus{
+  outline:none;
+}
+
+.container{
+  padding-top:60px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.game{
+  display:flex;
+  flex-direction: row;
+  min-width: 230px;
+}
+.game-info{
+ width:220px;
+ display:flex;
+ flex-direction: column;
+}
+
+
+.status{
+  margin-bottom:10px;
+}
+.button{
+  width:100%;
+}
+
+.ganador, .siguienteJugador{
+  font-size: 30px;
+  text-align: center;
+  padding: 20px 0;
+  font-weight: bold;
+}
